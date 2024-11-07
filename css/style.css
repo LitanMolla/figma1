@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Poppins", serif;
 }
 
 ol,ul{
@@ -397,6 +398,7 @@ p{
     font-weight: 500;
     color: #616161;
     line-height: 150%;
+    
 }
 
 .text-Part a{
@@ -451,9 +453,216 @@ p{
 /* imgwithtext CSS End  */
 
 
-/* All Common CSS Start  */
-/* All Common CSS End  */
-/* All Common CSS Start  */
-/* All Common CSS End  */
+/* Gallery Part Start  */
+#gallery{
+    margin-top: 70px;
+}
+
+.galleryPart{
+
+}
+
+.glText{
+    text-align: center;
+}
+
+.glText p{
+    font-family: "Poppins", serif;
+    line-height: 150%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #616161;
+}
+
+.glText h1{
+    font-family: "Poppins", serif;
+    line-height: 120%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.glimgPart{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.lefImg{
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.lefImg .l1{
+    
+}
+.lefImg .l1 img{
+    height: 450px;
+    width: 90px;
+}
+
+.lefImg .l2 img{
+    width: 600px;
+    height: 412px;
+}
+
+.midImg{
+    width: 20%;
+}
+
+.rightImg{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.galleryPart .kothin{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(1, 5, 230);
+    margin-bottom: 100px;
+}
+
+/* Gallery Part End  */
+
+
+/* Footer CSS Start  */
+#footer{
+    margin-bottom: 50px;
+}
+
+.fotterRaw{
+    height: 1px;
+    width: 100%;
+    background: #B0B0B0;
+    margin-bottom: 40px;
+}
+
+.footerFlex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 40px; */
+}
+
+.fPartA{
+    width: 30%;
+}
+
+.fPartA h1{
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.fPartA p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    line-height: 30px;
+    padding-right: 100px;
+}
+
+.fPartB{
+    width: 20%;
+}
+
+.fPartB p{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.fPartB ul li a{
+    color: #000000;
+}
+.fPartB ul li{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.fPartC p{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.fPartC ul li a{
+    color: #000000;
+}
+.fPartC ul li{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.fPartC{
+    width: 20%;
+}
+
+.fPartD{
+    width: 30%;
+}
+
+
+.fPartD p{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 500;
+    /* padding-bottom: 40px; */
+}
+
+.emailF{
+    margin-top: 40px;
+    display: flex;
+}
+.emailF p{
+    color: #000000;
+    font-size: 14px;
+}
+
+.emailF h6{
+    color: #9F9F9F;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 3px;
+    margin-right: 30px;
+}
+
+.emailRaw{
+    height: 1px;
+    width: 190px;
+    background: #000000;
+    margin-right: 10px;
+}
+
+.subRaw{
+    height: 1px;
+    width: 80px;
+    background: #000000;
+}
+
+.mailFlex{
+    display: flex;
+}
+
+.fRawButton{
+    height: 1px;
+    width: 100%;
+    background: #B0B0B0;
+    margin-bottom: 50px;
+}
+
+.copyright p{
+    font-size: 16px;
+    color: #000000;
+}
+/* Footer CSS End  */
 /* All Common CSS Start  */
 /* All Common CSS End  */
